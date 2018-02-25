@@ -21,10 +21,10 @@ public class MainActivity extends Activity {
         button = (Button) findViewById(R.id.button);
         text = (TextView) findViewById(R.id.text);
 
-        task = new CounterTask(button, text);
     }
 
     public void start(View view) {
+        task = new CounterTask(button, text);
         task.execute(10);
     }
 }
