@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Learning Android</string>
+    <string name="app_name">Exercício 1</string>
+    <string name="start">Iniciar</string>
 </resources>
